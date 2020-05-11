@@ -1,6 +1,6 @@
 ## Boolean Data Type
-
 a = True
+# 0 == False; anything else True
 print(type(a))
 
 # NoneType
@@ -40,6 +40,9 @@ print(type(a))
 tup = (1, 'One', 'Ten', 10) 
 #Declaring Empty Tuple
 tup_empty = ()
+# Adding an element to tuple 
+# a comma is added to convert to tuple type
+tup_empty = tup_empty + (1,)
 
 for i in tup:
     print(i, 'is of type', type(i))
