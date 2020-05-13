@@ -29,3 +29,19 @@ L_mod = list_dup(L1,L2)
 print(L1)
 
 #Scope of Variables
+
+a = 10
+
+def print_some():
+    b = 20
+    print('a:', a)
+    print('b:', b)
+    def some():
+        print('b: Some', b)
+    some()
+
+
+print_some()
+#print('b:Outside FNC', b)
+
+
