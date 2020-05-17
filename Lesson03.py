@@ -29,7 +29,6 @@ L_mod = list_dup(L1,L2)
 print(L1)
 
 #Scope of Variables
-
 a = 10
 
 def print_some():
